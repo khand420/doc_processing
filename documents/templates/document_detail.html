@@ -1,0 +1,12 @@
+<h2>Document: {{ document.file.name }}</h2>
+<p>Uploaded at: {{ document.uploaded_at }}</p>
+
+<h3>Extracted Text:</h3>
+<p>{{ extracted_text.text }}</p>
+
+<h3>AI Results:</h3>
+<ul>
+    {% for entity in ai_result.entities %}
+        <li>{{ entity.text }} ({{ entity.label }})</li>
+    {% endfor %}
+</ul>
