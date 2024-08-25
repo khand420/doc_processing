@@ -13,6 +13,7 @@ python -m spacy download en_core_web_sm
 Make sure Tesseract is installed on your system. For example, on Ubuntu:
 sudo apt-get install tesseract-ocr
 
+![image info](image.png)
 
 
 # Intelligent Document Processing System
